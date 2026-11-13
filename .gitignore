@@ -1,9 +1,6 @@
-# 컴파일 결과물 및 임시 폴더 제외
 build/
 target/
 bin/
-
-# 이클립스 개인 설정 파일 제외 (선택 사항이지만 권장)
 .settings/
 .project
 .classpath
