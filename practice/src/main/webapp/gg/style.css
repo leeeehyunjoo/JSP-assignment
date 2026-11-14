@@ -1,0 +1,155 @@
+
+/* 전체 페이지 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fc;
+    color: #26344d;
+}
+
+/* 상단 메뉴 */
+/* 헤더 */
+header {
+    background-color: #347bd5;
+    padding: 25px 30px 20px;
+    text-align: center;
+}
+
+/* 로고 */
+.logo {
+    margin-bottom: 25px;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+/* 메뉴 */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* 메인 콘텐츠 */
+main {
+    padding: 40px 50px 80px;
+    min-height: 450px;
+}
+
+main section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+main h2 {
+    color: #2869bd;
+    text-align: center;
+}
+
+main a {
+    color: #347bd5;
+    text-decoration: none;
+}
+
+/* 메인 소개 영역 */
+.intro {
+    background-color: #dcecff;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+/* 지역 정보 영역 */
+.info-list {
+    display: flex;
+    gap: 20px;
+}
+
+.info-item {
+    flex: 1;
+    background-color: #f1f6fc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* 점수 확인 영역 */
+.score {
+    text-align: center;
+    padding: 35px;
+}
+
+.score a {
+    display: inline-block;
+    background-color: #347bd5;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* 하단 영역 */
+footer {
+    display: flex;
+    background-color: #eaf0f8;
+    padding: 15px 40px;
+    gap: 25px;
+}
+
+footer section {
+    flex: 1;
+    padding: 5px 15px;
+}
+
+footer section:first-child {
+    border-right: 1px solid #ccd7e5;
+}
+
+footer h3 {
+    color: #2869bd;
+    margin: 5px 0 10px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* 게시글 목록 */
+footer section:first-child a {
+    display: block;
+    color: #34445c;
+    text-decoration: none;
+    border-bottom: 1px solid #dce4ef;
+    padding: 5px 0;
+}
+
+footer section:first-child a:hover,
+nav a:hover {
+    opacity: 0.7;
+}
+
+/* 작은 화면 */
+@media (max-width: 600px) {
+    footer {
+        flex-direction: column;
+    }
+
+    footer section:first-child {
+        border-right: none;
+        border-bottom: 1px solid #ccd7e5;
+    }
+}
