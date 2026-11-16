@@ -1,0 +1,114 @@
+
+/* 전체 기본 설정 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 15px;
+    background-color: #f2f6fb;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 결과 페이지 전체 영역 */
+.result-container {
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+    text-align: center;
+}
+
+/* 제목 */
+h2 {
+    margin-bottom: 30px;
+    color: #285b91;
+    font-size: 27px;
+}
+
+/* 점수 표시 */
+.score-box {
+    margin: 20px 0;
+    padding: 25px;
+    background-color: #e5f0ff;
+    border-radius: 12px;
+}
+
+.score-box .score {
+    margin: 5px 0;
+    color: #347bd5;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+/* 일반 결과 정보 */
+.result-info {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #f7f9fc;
+    border-radius: 8px;
+    text-align: left;
+}
+
+/* 평가 메시지 */
+.result-message {
+    margin: 25px 0;
+    padding: 20px;
+    background-color: #edf5ff;
+    border-radius: 10px;
+    color: #285b91;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* 오답 목록 */
+.wrong-list {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #fff5f5;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.wrong-list p {
+    margin: 8px 0;
+    color: #c44b4b;
+}
+
+/* 메인 페이지 이동 링크 */
+.home-link {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 13px 30px;
+    background-color: #347bd5;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.home-link:hover {
+    background-color: #245fae;
+}
+
+/* 모바일 화면 */
+@media (max-width: 600px) {
+    .result-container {
+        margin: 15px auto;
+        padding: 25px 18px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .score-box .score {
+        font-size: 34px;
+    }
+}
