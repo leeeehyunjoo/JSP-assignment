@@ -32,6 +32,8 @@
     }
 
     int score = correct * 5;
+    
+    session.setAttribute("score", score);
 %>
 <html>
 <head>

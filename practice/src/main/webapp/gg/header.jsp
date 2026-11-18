@@ -8,5 +8,6 @@
 		<a href="data.jsp">지표자료</a>
 		<a href="joinUs.jsp">참여하기</a>
 		<a href="myPage.jsp">마이페이지</a>
+		<a href="login.jsp">로그인/회원가입</a>
 	</nav>
 </header>

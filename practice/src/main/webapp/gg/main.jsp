@@ -45,7 +45,7 @@
             나의 이해도와 실천 수준을 종합하여
             지속 가능한 지역사회를 위한 기여도를 확인해 보세요.
         </p>
-        <a href="score.jsp">나의 통합 점수 확인하기</a>
+        <a href="totalScore.jsp">나의 통합 점수 확인하기</a>
     </section>
 
 </main>
